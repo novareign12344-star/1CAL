@@ -110,6 +110,44 @@ export default function Home() {
             Email: <a href={site.emailHref}>{site.email}</a>
           </p>
           <p>Office: {site.office} • Owner: {site.owner}</p>
+
+          {/* Netlify form — submissions will appear in Netlify's Forms dashboard */}
+          <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" className="card contact-form">
+            <input type="hidden" name="form-name" value="contact" />
+            <p style={{ display: "none" }}>
+              <label>
+                Don't fill this out: <input name="bot-field" />
+              </label>
+            </p>
+
+            <p>
+              <label>
+                Your name<br />
+                <input type="text" name="name" required />
+              </label>
+            </p>
+            <p>
+              <label>
+                Your email<br />
+                <input type="email" name="email" required />
+              </label>
+            </p>
+            <p>
+              <label>
+                Phone (optional)<br />
+                <input type="tel" name="phone" />
+              </label>
+            </p>
+            <p>
+              <label>
+                Message<br />
+                <textarea name="message" rows={4} required />
+              </label>
+            </p>
+            <p>
+              <button type="submit">Send message</button>
+            </p>
+          </form>
         </section>
       </main>
 
