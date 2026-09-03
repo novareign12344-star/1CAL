@@ -35,10 +35,10 @@ export const site = {
 } as const;
 
 export const nav = [
-  { to: "/work", label: "Work" },
-  { to: "/services", label: "Services" },
-  { to: "/about", label: "About" },
-  { to: "/contact", label: "Contact" },
+  { to: "#work", label: "Work" },
+  { to: "#services", label: "Services" },
+  { to: "#about", label: "About" },
+  { to: "#contact", label: "Contact" },
 ] as const;
 
 export type ProjectCategory =
@@ -65,8 +65,8 @@ export const projects: Project[] = [
     slug: "kitchen",
     title: "Kitchen Remodel",
     category: "Kitchen",
-    cover: "/images/hero-kitchen.jpg",
-    images: ["/images/hero-kitchen.jpg", "/images/kitchen-hawthorne.jpg"],
+    cover: "/images/hero-kitchen.svg",
+    images: ["/images/hero-kitchen.svg", "/images/kitchen-hawthorne.svg"],
     summary:
       "Open the room, keep the house honest, and build a kitchen that can take a beating.",
     scope: [
@@ -82,8 +82,8 @@ export const projects: Project[] = [
     slug: "bungalow-kitchen",
     title: "Galley, Opened",
     category: "Kitchen",
-    cover: "/images/kitchen-hawthorne.jpg",
-    images: ["/images/kitchen-hawthorne.jpg", "/images/hero-kitchen.jpg"],
+    cover: "/images/kitchen-hawthorne.svg",
+    images: ["/images/kitchen-hawthorne.svg", "/images/hero-kitchen.svg"],
     summary:
       "A closed galley turned into a room you can comfortably live and cook in.",
     scope: [
@@ -99,8 +99,8 @@ export const projects: Project[] = [
     slug: "primary-bath",
     title: "Primary Bath",
     category: "Bath",
-    cover: "/images/bath-irvington.jpg",
-    images: ["/images/bath-irvington.jpg"],
+    cover: "/images/bath-irvington.svg",
+    images: ["/images/bath-irvington.svg"],
     summary:
       "A quiet and comfortable bath with quality fixtures and durable finishes.",
     scope: [
@@ -116,8 +116,8 @@ export const projects: Project[] = [
     slug: "whole-home",
     title: "Whole Home Renovation",
     category: "Whole home",
-    cover: "/images/living-division.jpg",
-    images: ["/images/living-division.jpg", "/images/hero-kitchen.jpg"],
+    cover: "/images/living-division.svg",
+    images: ["/images/living-division.svg", "/images/hero-kitchen.svg"],
     summary:
       "A complete renovation that brings the entire home together under one vision.",
     scope: [
@@ -133,8 +133,8 @@ export const projects: Project[] = [
     slug: "outdoor",
     title: "Outdoor Living",
     category: "Outdoor",
-    cover: "/images/outdoor-fremont.jpg",
-    images: ["/images/outdoor-fremont.jpg"],
+    cover: "/images/outdoor-fremont.svg",
+    images: ["/images/outdoor-fremont.svg"],
     summary:
       "Covered kitchens, porches, and outdoor spaces built for Alabama weather.",
     scope: [
@@ -150,8 +150,8 @@ export const projects: Project[] = [
     slug: "addition",
     title: "Home Addition",
     category: "Addition",
-    cover: "/images/addition-alberta.jpg",
-    images: ["/images/addition-alberta.jpg", "/images/living-division.jpg"],
+    cover: "/images/addition-alberta.svg",
+    images: ["/images/addition-alberta.svg", "/images/living-division.svg"],
     summary:
       "Additional living space that blends naturally with your existing home.",
     scope: [
@@ -167,8 +167,8 @@ export const projects: Project[] = [
     slug: "millwork",
     title: "Custom Millwork",
     category: "Millwork",
-    cover: "/images/millwork.jpg",
-    images: ["/images/millwork.jpg", "/images/studio.jpg"],
+    cover: "/images/millwork.svg",
+    images: ["/images/millwork.svg", "/images/studio.svg"],
     summary:
       "Built-ins, libraries, vanities, and custom woodworking completed with care.",
     scope: [
@@ -186,70 +186,70 @@ export const services = [
   {
     slug: "kitchens",
     title: "Kitchens",
-    image: "/images/hero-kitchen.jpg",
+    image: "/images/hero-kitchen.svg",
     lead: "The room you use every day, rebuilt so it works.",
     body: "From a targeted refresh to a complete gut remodel, we handle layout, cabinets, counters, plumbing, electrical, flooring, and finishes.",
   },
   {
     slug: "bathrooms",
     title: "Bathrooms",
-    image: "/images/bath-irvington.jpg",
+    image: "/images/bath-irvington.svg",
     lead: "Waterproofing first. Then the stone, the vanity, and the light.",
     body: "Primary baths, hall baths, and powder rooms completed with quality workmanship and durable materials.",
   },
   {
     slug: "additions",
     title: "Additions",
-    image: "/images/addition-alberta.jpg",
+    image: "/images/addition-alberta.svg",
     lead: "More room, joined cleanly to the house you already have.",
     body: "Bedrooms, kitchens, sunrooms, garages, and home expansions designed to fit seamlessly.",
   },
   {
     slug: "whole-home",
     title: "Whole Home Renovations",
-    image: "/images/living-division.jpg",
+    image: "/images/living-division.svg",
     lead: "One crew. One plan. The whole house.",
     body: "Large-scale remodeling projects including kitchens, bathrooms, flooring, trim, paint, and structural improvements.",
   },
   {
     slug: "interior",
     title: "Interior Remodeling",
-    image: "/images/millwork.jpg",
+    image: "/images/millwork.svg",
     lead: "The finishing details that make a room complete.",
     body: "Millwork, flooring, doors, trim, lighting, drywall, and complete interior upgrades.",
   },
   {
     slug: "exterior",
     title: "Exterior Improvements",
-    image: "/images/outdoor-fremont.jpg",
+    image: "/images/outdoor-fremont.svg",
     lead: "Built for Alabama weather.",
     body: "Porches, outdoor living spaces, siding repairs, and exterior remodeling projects.",
   },
   {
     slug: "decks",
     title: "Decks & Porches",
-    image: "/images/outdoor-fremont.jpg",
+    image: "/images/outdoor-fremont.svg",
     lead: "Outdoor spaces built to last.",
     body: "Custom decks, covered porches, stairs, railings, repairs, and outdoor living areas.",
   },
   {
     slug: "flooring",
     title: "Flooring",
-    image: "/images/living-division.jpg",
+    image: "/images/living-division.svg",
     lead: "New floors that transform a room.",
     body: "LVP, hardwood, tile, laminate, flooring repairs, and complete replacement services.",
   },
   {
     slug: "painting",
     title: "Painting",
-    image: "/images/living-division.jpg",
+    image: "/images/living-division.svg",
     lead: "Interior and exterior painting.",
     body: "Professional painting services to refresh and protect your investment.",
   },
   {
     slug: "windows-doors",
     title: "Windows & Doors",
-    image: "/images/addition-alberta.jpg",
+    image: "/images/addition-alberta.svg",
     lead: "Appearance, efficiency, and security.",
     body: "Replacement windows, doors, trim work, and weatherproofing solutions.",
   },
