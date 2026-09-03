@@ -5,7 +5,7 @@ export const site = {
   tagline: "One call. The whole house.",
 
   description:
-    "1CallRemodeling LLC provides kitchen remodeling, bathroom renovations, home additions, whole-home renovations, interior remodeling, exterior improvements, decks, flooring, painting, windows, doors, and general contracting services throughout Hartford, Geneva, Dothan, Enterprise, and the Wiregrass area.",
+    "1CallRemodeling LLC provides kitchen remodeling, bathroom renovations, home additions, whole-home renovations, interior remodeling, exterior improvements, decks, flooring, painting, windows, d[...]",
 
   phone: "(334) 867-9256",
   phoneHref: "tel:+13348679256",
@@ -179,6 +179,21 @@ export const projects: Project[] = [
       "On-site protection",
     ],
     duration: "3–8 weeks, typical",
+  },
+  {
+    slug: "gallery",
+    title: "Recent Work Gallery",
+    category: "Whole home",
+    cover: "/images/gallery-1.jpg",
+    images: [
+      "/images/gallery-1.jpg",
+      "/images/gallery-2.jpg",
+      "/images/gallery-3.jpg",
+      "/images/gallery-4.jpg",
+    ],
+    summary: "A selection of recent jobs — pressure washing, exterior refreshes, and remodels.",
+    scope: ["Before & after", "Exterior work", "Interior remodels"],
+    duration: "Varies",
   },
 ];
 
