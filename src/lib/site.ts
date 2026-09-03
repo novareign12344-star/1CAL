@@ -10,8 +10,8 @@ export const site = {
   phone: "(334) 867-9256",
   phoneHref: "tel:+13348679256",
 
-  email: "office@1callremodeling.com",
-  emailHref: "mailto:office@1callremodeling.com",
+  email: "1callremodelingllc@gmail.com",
+  emailHref: "mailto:1callremodelingllc@gmail.com",
 
   address: {
     line1: "284 Simmons Creek Road",
