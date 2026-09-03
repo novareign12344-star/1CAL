@@ -112,7 +112,7 @@ export default function Home() {
           <p>Office: {site.office} • Owner: {site.owner}</p>
 
           {/* Netlify form — submissions will appear in Netlify's Forms dashboard */}
-          <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" className="card contact-form">
+          <form name="contact" method="POST" action="/contact-success" data-netlify="true" data-netlify-honeypot="bot-field" className="card contact-form">
             <input type="hidden" name="form-name" value="contact" />
             <p style={{ display: "none" }}>
               <label>

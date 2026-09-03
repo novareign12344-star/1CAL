@@ -1,19 +1,21 @@
-# Short instructions
+# 1CAL — deploy-ready notes
 
-This repository is a small Vite + React site for 1Call Remodeling. It uses the
-site data in src/lib/site.ts to render a static brochure website.
+I've added a few deploy-focused improvements so you can connect this repo to Netlify and deploy immediately.
 
-To run locally:
+What's new
+- Contact form success page: `contact-success.html` — the Netlify form redirects here after submit.
+- Basic SEO/Open Graph/Twitter meta tags in `index.html` pointing at `/images/social-preview.png`.
+- Social preview image: `public/images/social-preview.png` (placeholder). Replace with your branded image if you have one.
+- `robots.txt` and `sitemap.xml` added at the repo root.
 
-- Install dependencies: npm install
-- Start dev server: npm run dev
-- Build for production: npm run build
-- Preview production build: npm run preview
+Before you deploy
+- Replace `https://your-site-url/` in `index.html` and `sitemap.xml` with your real site URL after you have your Netlify domain or custom domain.
+- Replace placeholder social image at `public/images/social-preview.png` with a real image (1200x630 recommended).
 
-Deploy to Netlify:
+Deploy steps (Netlify)
+1. Connect the repository in Netlify (New site → Import from Git → GitHub).
+2. Build command: `npm run build`
+3. Publish directory: `dist`
+4. Branch: `main`
+5. Deploy and test the contact form. Submitted messages will appear in Netlify → Site → Forms → contact.
 
-- Connect this GitHub repository to Netlify.
-- Set build command to: npm run build
-- Set publish directory to: dist
-
-Replace images in /public or update the paths in src/lib/site.ts as needed.
