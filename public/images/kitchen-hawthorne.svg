@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Kitchen remodeling detail">
+  <defs>
+    <linearGradient id="bg2" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2f4d3a"/>
+      <stop offset="100%" stop-color="#4f7259"/>
+    </linearGradient>
+    <pattern id="dots2" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#f6f1e3" opacity="0.14"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg2)"/>
+  <rect width="1200" height="800" fill="url(#dots2)"/>
+  <rect x="26" y="26" width="1148" height="748" fill="none" stroke="#e3c98f" stroke-width="2" opacity="0.55"/>
+  <circle cx="600" cy="360" r="152" fill="#f6f1e3"/>
+  <circle cx="600" cy="360" r="152" fill="none" stroke="#b8863c" stroke-width="4"/>
+  <g fill="#16281c">
+    <rect x="512" y="286" width="176" height="70" rx="6"/>
+    <rect x="524" y="298" width="60" height="46" rx="3" fill="#f6f1e3"/>
+    <rect x="596" y="298" width="60" height="46" rx="3" fill="#f6f1e3"/>
+    <rect x="500" y="386" width="200" height="64" rx="8"/>
+    <rect x="516" y="404" width="40" height="10" rx="4" fill="#e3c98f"/>
+    <rect x="644" y="404" width="40" height="10" rx="4" fill="#e3c98f"/>
+  </g>
+  <text x="600" y="612" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#f6f1e3" letter-spacing="3">KITCHENS</text>
+  <text x="600" y="646" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#f6f1e3" letter-spacing="4" opacity="0.85">1CALL REMODELING</text>
+</svg>

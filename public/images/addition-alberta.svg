@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Home additions">
+  <defs>
+    <linearGradient id="bg6" x1="1" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#16281c"/>
+      <stop offset="100%" stop-color="#2f4d3a"/>
+    </linearGradient>
+    <pattern id="dots6" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#e3c98f" opacity="0.16"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg6)"/>
+  <rect width="1200" height="800" fill="url(#dots6)"/>
+  <rect x="26" y="26" width="1148" height="748" fill="none" stroke="#b8863c" stroke-width="2" opacity="0.55"/>
+  <circle cx="600" cy="360" r="152" fill="#f6f1e3"/>
+  <circle cx="600" cy="360" r="152" fill="none" stroke="#b8863c" stroke-width="4"/>
+  <g fill="#16281c">
+    <polygon points="536,300 636,300 664,338 508,338"/>
+    <rect x="524" y="338" width="120" height="82"/>
+    <rect x="552" y="368" width="26" height="52"/>
+    <rect x="596" y="352" width="24" height="24" fill="#f6f1e3"/>
+    <polygon points="636,326 692,326 708,350 620,350"/>
+    <rect x="628" y="350" width="72" height="70"/>
+    <rect x="648" y="374" width="20" height="20" fill="#e3c98f"/>
+  </g>
+  <text x="600" y="612" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#f6f1e3" letter-spacing="3">ADDITIONS</text>
+  <text x="600" y="646" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#e3c98f" letter-spacing="4">1CALL REMODELING</text>
+</svg>
